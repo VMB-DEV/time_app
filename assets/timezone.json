@@ -1,0 +1,81 @@
+{
+	"time_zones": [
+		{
+			"offset": "UTC-12:00",
+			"main_city": "Île Baker",
+			"code": "BIT"},
+			{
+				"offset": "UTC-10:00",
+				"main_city": "Honolulu",
+				"code": "HST"
+			},
+			{
+				"offset": "UTC-08:00",
+				"main_city": "Los Angeles",
+				"code": "PST"
+			},
+			{
+				"offset": "UTC-07:00",
+				"main_city": "Denver",
+				"code": "MST"
+			},
+			{
+				"offset": "UTC-06:00",
+				"main_city": "Chicago",
+				"code": "CST"
+			},
+			{
+				"offset": "UTC-05:00",
+				"main_city": "New York",
+				"code": "EST"
+			},{
+			"offset": "UTC-03:00",
+			"main_city": "Buenos Aires",
+			"code": "ART"
+			},
+			{
+				"offset": "UTC+00:00",
+				"main_city": "Londres",
+				"code": "GMT"
+			},
+			{
+				"offset": "UTC+01:00",
+				"main_city": "Paris",
+				"code": "CET"
+			},
+			{
+				"offset": "UTC+02:00",
+				"main_city": "Le Caire",
+				"code": "EET"
+			},
+			{
+				"offset": "UTC+03:00",
+				"main_city": "Moscou",
+				"code": "MSK"
+			},
+			{"offset": "UTC+05:30",
+				"main_city": "New Delhi",
+				"code": "IST"
+			},
+			{
+				"offset": "UTC+08:00",
+				"main_city": "Pékin",
+				"code": "CST"
+			},
+			{
+				"offset": "UTC+09:00",
+				"main_city": "Tokyo",
+				"code": "JST"
+			},
+			{
+				"offset": "UTC+10:00",
+				"main_city": "Sydney",
+				"code": "AEST"
+			},
+			{
+				"offset": "UTC+12:00",
+				"main_city": "Auckland",
+				"code": "NZST"
+			}
+	]
+}

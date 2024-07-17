@@ -1,10 +1,10 @@
 import 'package:time_app/domain/entities/Settings.dart';
 import 'package:time_app/domain/repositories/SettingsRepository.dart';
 
-class UpdateSettingsUseCase {
+class GetSettingsUseCase {
   final SettingsRepository repository;
 
-  UpdateSettingsUseCase(this.repository);
+  GetSettingsUseCase(this.repository);
 
-  Future<void> execute(Settings newSettings) => repository.updateSettings(newSettings);
+  Future<Settings> execute() => repository.getSettings();
 }
