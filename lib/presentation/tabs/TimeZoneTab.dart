@@ -13,10 +13,6 @@ class TimeZonesTab extends StatelessWidget {
         TimeZone? selectedTimeZone = timeZoneProvider.selectedTimeZone;
         List<TimeZone> timeZones = timeZoneProvider.timeZones;
 
-        // if (selectedTimeZone == null) {
-        //   return const Center(child: CircularProgressIndicator());
-        // }
-
         return Scaffold(
           appBar: AppBar(
             title: const Text('Time zones'),

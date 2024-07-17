@@ -31,7 +31,6 @@ class SettingsTab extends StatelessWidget {
                     settingsProvider.updateDarkThemeTo(value);
                   },
                 ),
-                // const Divider(height: 0),
                 SwitchListTile(
                   activeColor: Theme.of(context).colorScheme.surfaceContainerLowest,
                   inactiveThumbColor: Theme.of(context).colorScheme.surfaceContainerHigh,
@@ -42,7 +41,6 @@ class SettingsTab extends StatelessWidget {
                   title: const Text('12 hours format'),
                   subtitle: Text( 'Tape to turn ${_onOff(settings.amPmFormat)} the twelve hours format'),
                 ),
-                // const Divider(height: 0),
               ],
             ),
           );

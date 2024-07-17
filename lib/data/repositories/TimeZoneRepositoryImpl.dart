@@ -30,7 +30,6 @@ class TimeZoneRepositoryImpl implements TimeZoneRepository {
     } else {
       return TimeZone.from(timeZoneModel);
     }
-    // TODO: implement updateSelectedTimeZone
   }
 
   Future<TimeZone> getLocalTimeZone() async {

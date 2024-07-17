@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:time_app/domain/entities/Settings.dart';
 import 'package:time_app/presentation/state_management/SettingsProvider.dart';
-import 'package:time_app/presentation/widgets/TransparentButton.dart';
 
 class FirstLaunch extends StatefulWidget {
   const FirstLaunch({super.key});
@@ -27,7 +26,6 @@ class _FirstLaunchState extends State<FirstLaunch> {
           title: const Text('Choose a theme color'),
           backgroundColor: Theme.of(context).colorScheme.secondary,
         ),
-        // body: Center(
         body: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [Row(

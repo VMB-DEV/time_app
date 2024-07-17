@@ -14,7 +14,6 @@ class TimeZoneModel extends TimeZone {
       mainCity: json['main_city'],
       code: json['code'],
       intOffset: int.parse(json['offset'].toString().substring(3, 6)),
-      // intOffset: json['intOffset']
     );
   }
 
@@ -32,7 +31,6 @@ class TimeZoneModel extends TimeZone {
       'offset': offset,
       'main_city': mainCity,
       'code': code,
-      // 'int_offset': intOffset,
     };
   }
 }

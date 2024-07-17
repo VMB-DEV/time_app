@@ -17,7 +17,6 @@ import 'package:time_app/presentation/state_management/TimeZoneProvider.dart';
 final GetIt getIt = GetIt.instance;
 
 Future<void> init() async {
-  // Use cases
   getIt.registerLazySingleton(() => GetSettingsUseCase(getIt()));
   getIt.registerLazySingleton(() => UpdateSettingsUseCase(getIt()));
   getIt.registerLazySingleton(() => GetAllTimeZonesUseCase(getIt()));
