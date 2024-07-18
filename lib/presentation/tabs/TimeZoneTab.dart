@@ -22,8 +22,7 @@ class TimeZonesTab extends StatelessWidget {
             itemCount: timeZones.length,
             itemBuilder: (context, index) {
               TimeZone timeZone = timeZones.elementAt(index);
-              bool state = timeZone == selectedTimeZone;
-              print('utc ${timeZone.intOffset} $state');
+              bool state = timeZone.offset == selectedTimeZone?.offset;
               return SwitchListTile(
                 title: Text(timeZone.mainCity),
                 subtitle: Text('${timeZone.offset} (${timeZone.code})'),
