@@ -4,7 +4,7 @@
 
   A new Dart project with Flutter.
 
-  This is an Android and a Web application. The purpose of this project is to display 3 differents screen with a bottom app navigation bar.
+  This is an introduction to Flutter with Dart. The project is an Android and a Web application. The purpose is to display 3 differents screen with a bottom app navigation bar.
 First screen displays a List based on the timeZone.json file that gives a selection of time zones to
 choose.
 
